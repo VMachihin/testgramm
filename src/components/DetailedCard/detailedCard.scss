@@ -1,0 +1,49 @@
+.detailedCard {
+  width: 600px;
+  background-color: #eee;
+  border: 1px solid #dbdbdb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  .ant-card-body {
+    padding: 0;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    padding-inline: 20px;
+  }
+
+  &__image {
+    width: 100%;
+    height: 300px;
+  }
+
+  &__likes {
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  &__comments {
+    padding-inline: 10px;
+  }
+
+  &__viewAllComments {
+    color: #9f9393;
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #5d5a5a;
+    }
+  }
+
+  &__textArea {
+    border: none;
+    outline: none;
+    padding: 10px;
+    resize: none !important;
+  }
+}
