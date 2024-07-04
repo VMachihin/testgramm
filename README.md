@@ -1,8 +1,22 @@
-# React + Vite
+# Testgramm!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный проект. Разработка приложения-аналога известной соцсети.
 
-Currently, two official plugins are available:
+## Стек
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- React-router-dom
+- Redux
+- Redux-thunk
+- Axios
+- SCSS
+- React-infinite-scroll-component
+- react-loader-spinner
+
+## Запуск проекта
+
+- Скачайте или клонируйте проект с репозитория. `git clone https://github.com/VMachihin/testgramm.git`
+- Откройте терминал и перейдите в директорию проекта.
+- Выполните команду `npm install` для установки всех зависимостей.
+- Затем запустите приложение командой npm start.
+- Откройте [http://localhost:3000](http://localhost:3000/) в браузере, чтобы просмотреть приложение.
